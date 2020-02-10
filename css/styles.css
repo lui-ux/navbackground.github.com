@@ -1,0 +1,22 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.header {
+    background-color: black;
+    width: 900px;
+    height: 100px;
+    margin:auto 150px auto 200px;
+
+}
+.nav {
+    background-color: brown;
+    width: 900px;
+    height: 40px;
+    margin:30px 150px auto 200px;
+}

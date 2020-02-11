@@ -1,5 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 body {
     background-image: url(../img/unsplash.jpg);
@@ -8,15 +10,85 @@ body {
     background-repeat: no-repeat ;
 }
 .header {
-    background-color: black;
+    background-color: transparent;
     width: 900px;
-    height: 100px;
+    height: 170px;
     margin:auto 150px auto 200px;
-
+    /* border: 2px solid black; */
+    /* ich habe die border benutzt nur zu wissen .wo genau ist  das box   */
 }
+img {
+    width: 300px;
+    height: 150px;
+    /* background-color: burlywood; */
+    margin-left: 300px;
+    padding-top: 30px;
+    
+}
+
 .nav {
     background-color: brown;
     width: 900px;
     height: 40px;
-    margin:30px 150px auto 200px;
+    margin:10px 150px auto 200px;
+    border-radius: 20px;
 }
+.nav ul {
+    list-style: none;
+   
+}
+.nav >li {
+    position: relative;
+    display: inline-block;
+    
+}
+.menu >li >a {
+    display: block;
+    padding: 15px 20px;
+    color: black solid;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+.menu li a:Hover {
+    background-color: cornflowerblue;
+    transition: all .3s ease-in-out;
+}
+/* .submenu */
+.submenu{
+    position: absolute;
+    width: 40%;
+    background:transparent;
+    display: none;
+    border: 2px black solid;
+  }
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    text-decoration: overline;
+  
+  }
+  .menu li:hover .submenu{
+    display: block;
+  }
+  /* footer */
+.footer{
+    background-color:transparent;
+    color:white;
+    font-size: 14px;
+    /* border: 3px black solid; */ 
+    /* ich habe die border benutzt nur zu wissen .wo genau ist  das box   */
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-style: italic;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    text-shadow: 1px 1px 1.4px white;
+  }

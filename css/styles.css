@@ -27,33 +27,35 @@ img {
 }
 
 .nav {
-    background-color: brown;
-    width: 900px;
+    background-color:transparent;
+    width: 500px;
     height: 40px;
-    margin:10px 150px auto 200px;
+    margin:10px 150px auto 400px;
     border-radius: 20px;
 }
 .nav ul {
     list-style: none;
    
 }
-.nav >li {
+.nav li {
     position: relative;
     display: inline-block;
     
 }
 .menu >li >a {
     display: block;
-    padding: 15px 20px;
-    color: black solid;
-    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    /* background-color: black; */
+    text-decoration: overline;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
+    
   }
 
 .menu li a:Hover {
-    background-color: cornflowerblue;
-    transition: all .3s ease-in-out;
+    background-color: rosybrown;
+    transition: all .4s ease-in-out;
 }
 /* .submenu */
 .submenu{
@@ -61,7 +63,7 @@ img {
     width: 40%;
     background:transparent;
     display: none;
-    border: 2px black solid;
+    /* border: 2px black solid; */
   }
   .submenu li a{
     display: block;

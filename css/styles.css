@@ -61,7 +61,7 @@ img {
 .submenu{
     position: absolute;
     width: 40%;
-    background:transparent;
+    background: transparent;
     display: none;
     /* border: 2px black solid; */
   }
